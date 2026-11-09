@@ -1,0 +1,14 @@
+[package]
+name = "windowfit"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Fit a chat history into a token budget."
+
+[lib]
+name = "windowfit"
+path = "src/lib.rs"
+
+[[bin]]
+name = "windowfit"
+path = "src/main.rs"
